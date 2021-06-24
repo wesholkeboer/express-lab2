@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Pizza</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Lato:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>Your Pizza</h1>
+    <p>Size: {{pizzaSize}}</p>
+    <p>Toppings: {{toppingsNumber}}</p>
+    <p>Gluten-Free Crust: {{glutenMessage}}</p>
+    <p>Special Instructions: {{pizza.instructions}}</p>
+    <p>Price: ${{newPrice}}</p>
+    {{#if message}}
+      <p>{{message}}</p>
+    {{/if}}
+    <p><a href="/build-pizza">Build another pizza</a>
+      |
+      <a href="/">Back to Homepage</a></p>
+  </body>
+</html>

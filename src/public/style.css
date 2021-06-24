@@ -1,0 +1,43 @@
+.pizza-img {
+  margin-top: 40px;
+  width: 250px;
+}
+
+body {
+  border: 2px dashed red;
+  background-color: wheat;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Italiana", serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+}
+
+label,
+p,
+a,
+li,
+button {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.pizza-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-item {
+  margin: 10px;
+}
